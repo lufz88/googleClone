@@ -121,17 +121,26 @@ button {
 }
 
 .main--search-bar input {
+	font-size: 1.8rem;
+	color: var(--primary-textcolor);
 	width: 100%;
 	height: 50px;
 	margin-bottom: 28px;
 	background-color: var(--bg-color);
 	border: 1px solid var(--border-color);
 	border-radius: 32px;
+	padding-left: 50px;
 }
 
 .main--search-bar input:hover {
 	background-color: var(--button-color);
 	border: 0;
+}
+
+.main--search-bar input:focus {
+	outline: none;
+	background-color: var(--button-color);
+	border: none;
 }
 
 .main--search-bar .search-bar--icon {
